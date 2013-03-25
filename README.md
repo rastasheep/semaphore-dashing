@@ -36,7 +36,9 @@ To include the widgets in a dashboard, add the following snippet for each projec
 data-id - defined in `config/semaphore.yml` and represents your project
 data-title - title that you want to see on dashboard for that project
 
-## Screenshots (TODO)
+## Screenshots
+
+![semaphore dashing usage](https://dl.dropbox.com/u/5802579/semaphore-dashing.png '')
 
 ## Contributing
 
