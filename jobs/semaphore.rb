@@ -21,7 +21,7 @@ def update_builds(project, config)
 
   puts "There is no branch  with name: #{query[1]} in project #{query[0]}" unless branch
 
-e build_info = {
+ build_info = {
     label: "#{branch['branch_name']}",
     value: "Build #{branch['build_number']}, #{branch['result']} ",
     time: "#{calculate_time(branch['finished_at'])}",
