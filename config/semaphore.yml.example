@@ -1,0 +1,10 @@
+---
+auth_token: my_auth_token
+projects:
+  # data-id: project/branch
+  base-app: base-app/master
+  testapp-mongodb: testapp-mongodb/mongoid3
+  # or
+  # data-id: project
+  testapp-sphinx: testapp-sphinx
+
