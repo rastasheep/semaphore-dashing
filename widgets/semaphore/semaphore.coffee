@@ -11,5 +11,5 @@ class Dashing.Semaphore extends Dashing.Widget
     @_checkStatus(data.items[0].state)
 
   _checkStatus: (status) ->
-    $(@node).removeClass('failed  passed')
+    $(@node).removeClass('failed pending  passed')
     $(@node).addClass(status)

@@ -2,7 +2,7 @@ $value-color:              #FFF;
 $background-color:         #8fb347;
 $background-error-color:   #ad3b0e;
 $background-passed-color:  #8fb347;
-$background-started-color: #E7D100;
+$background-pending-color:  #47bbb3;
 
 $title-color:       rgba(255, 255, 255, 0.7);
 $label-color:       rgba(255, 255, 255, 0.7);
@@ -73,8 +73,8 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     background-color: $background-error-color;
   }
 
-  &.started {
-    background-color: $background-started-color;
+  &.pending {
+    background-color: $background-pending-color;
   }
 
   &.passed {

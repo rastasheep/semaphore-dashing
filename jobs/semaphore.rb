@@ -41,7 +41,7 @@ def search_branch(project, branch)
 end
 
 def search_branch_with_last_build(project)
-  project['branches'].sort_by{ |branch| branch['finished_at'] }.last
+  project['branches'].sort_by{ |branch| branch['started_at'] }.last
 end
 
 def calculate_time(finished)
