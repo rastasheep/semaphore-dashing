@@ -1,6 +1,6 @@
 # Semaphore-dashing
 
-Simple Dashing widget to display the status of the latest build for a repository on [Semaphore CI](https://semaphoreapp.com).
+Simple [Dashing](https://github.com/Shopify/dashing) widget to display the status of the latest build for a repository on [Semaphore CI](https://semaphoreapp.com).
 
 ## Installation
 
@@ -20,8 +20,7 @@ repositories:
   testapp-sphinx: testapp-sphinx
 ```
 
-If in `config/semaphore.yml` you didn't specified branch, you  will see last build on that project no mather on branch,
-otherwise if branch is specified, you will only see last build for that branch.
+If you don't specify a branch, the last build on the project will be displayed, on any branch. Otherwise the last build for that branch will be displayed.
 
 ## Usage
 
