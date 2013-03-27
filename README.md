@@ -11,7 +11,7 @@ The Semaphore job expects `config/semaphore.yml` to look like:
 
 ```yaml
 auth_token: my_org_auth_token
-repositories:
+projects:
   # data-id: project/branch
   base-app: base-app/master
   testapp-mongodb: testapp-mongodb/mongoid3
