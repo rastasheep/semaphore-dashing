@@ -73,8 +73,8 @@ config_file = File.dirname(File.expand_path(__FILE__)) + '/../config/semaphore.y
 config = YAML::load(File.open(config_file))
 
 SCHEDULER.every '2m', :first_in => 0  do
-  unless config['projects'].empty?
-    config['projects'].each do |data_id, project|
+  unless config['repositories'].empty?
+    config['repositories'].each do |data_id, project|
         send_event(data_id, { items: update_builds(project, config) })
     end
   else
